@@ -1,0 +1,104 @@
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    max-width: 980px;
+    margin: 100px auto;
+    
+   
+
+}
+
+.contenedor1{
+   
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.caja1 {
+    width: 400px;
+    margin: 0 --4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    padding: 12px 0 9px 8px;
+    width: 380px;
+    background-color: #FAFAFA;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid #c5c5c5
+}
+
+.caja2{
+    
+    background-color: #faf7f7;
+    padding: 10px;
+    box-shadow: o 2px 4px rgb(0, 0, 0, 10%) 0 8px 16px rgb(0, 0, 0, 10%);
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.espacios{
+    border-color: rgb(214, 211, 211);
+   margin: 10px 0;
+}
+
+.contenedor2 {
+    background-color:rgb(47, 255, 54) ;
+}
+
+.idiomas div a{
+text-decoration: none;
+color: grey;
+}
+
+.idiomas {
+    display: flex;
+    width: 100%;
+    background: #fff;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer div a{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    background: #fff;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+
+.separador{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.linea{
+    background-color: #941212;
+    width: 95%;
+    height: 1px;
+}
+
+.body {
+    background-color: #eff2f5;
+}
